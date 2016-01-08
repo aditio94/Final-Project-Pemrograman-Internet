@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>MyFilesApps</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!--import framework boostrap,jquery dan css pada website-->
+        <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/bootstrap/js/bootstrap.min.js" rel="stylesheet">
+        <script src="assets/js/jquery-1.11.3.min.js"></script>
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/slideshow.css" rel="stylesheet">
+        <link href="assets/css/login.css" rel="stylesheet">
+      
+        
+        <!--CDN-->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        
+        
+        <!--js untuk login-->
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        
+    </head>
+
+    <body id="index" class="home">
+   
+
+        
+        
+        <nav class="navbar navbar-inverse" >
+          <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.php"><img src="img/logo.png" id="logo"></a> 
+            </div>
+                
+            <div class="navbar-header">
+              <a class="navbar-brand" href="index.php">MyFilesApps.com</a>
+            </div>
+            <div>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                  
+                  
+                
+                <li><a href="login.php"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+                 
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+	
+        <header class='container' id='header'>
+            <img src="img/logo%20myfile.png" id="logomyfiles">
+            <form>
+              <input class="search" type="text" placeholder="Cari..." required>	
+              <input class="button" type="button" value="Cari">		
+            </form>
+        </header>
+
+        <nav class='container roundEdge' id='nav'>
+            <ul>
+            <li><a href='index.php'>Home</a></li>
+            <li><a href='search.php'>Search</a></li>
+            <li><a href='look.php'>Look</a></li>
+            <li><a href='help.html'>Help</a></li>
+            <li><a href='contact.html'>Contact Us</a></li>
+            </ul>
+        </nav>
+        <br><br>
+        <section class="container" >
+        <div class="row">
+                <div class="col-sm-3" >
+                  <p><span class="glyphicon glyphicon-map-marker"></span>Anofriadi Dwi Arwan</p>
+                  <p><span class="glyphicon glyphicon-phone"></span>+6282 221 556 755</p>
+                  <p><span class="glyphicon glyphicon-envelope"></span>myfilesmail01@gmail.com</p>	
+                </div>
+                <div class="col-sm-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.240211571819!2d110.40681101485215!3d-6.9809565703011005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b4ea8021bc5%3A0x5a2d980b37fc0fe6!2sUniversitas+Dian+Nuswantoro!5e0!3m2!1sid!2sid!4v1451218383519" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            
+                <div class="col-sm-5" >   
+                    
+                        <form action="send_mail.php" method="post">
+
+                                <h2>Contact Us</h2>
+                                <label for="name">Name</label>
+                                <input type="text" name="name"><br>
+                                <label for="email">Email</label>
+                                <input type="text" name="email"><br>
+                                <label for="subject">Subject</label>
+                                <input type="text" name="subject"><br>
+                                <label for="message">Message</label>
+                                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                                <div><input type="submit" value="Send email"></div>
+
+                        </form>
+                       
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        
+
+        <footer class='container' id='footer'>
+            <p>
+            copyrighted © MyFilesApps Official 2015
+            </p>
+        </footer>
+	
+	
+</body>
+    
+</html

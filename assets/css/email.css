@@ -1,0 +1,18 @@
+.mail{
+		width: 730px;
+		margin: 10px auto;
+		border: 1px solid #ddd;
+		padding: 10px;
+	}
+	.mail div{
+		padding: 5px 0;
+		border-bottom: 1px solid #ddd;
+	}
+	label{
+		width: 100px;
+		display: inline-block;
+	}
+	.bottom{
+		font-size: 12px;
+		text-align: right;
+	}

@@ -1,0 +1,143 @@
+*{margin:0px; padding:0px}
+
+header, footer,section,nav{display:blocks}
+
+
+
+.container{margin:0 auto; width:1100px;font-family:arial;margin-top:20px}
+
+
+h1, h2 {color: #333;
+font-family: Helvetica,Arial;
+font-weight: bold;
+line-height: 1.1em;
+padding-bottom: 5px;
+text-shadow: 0 1px 0 #FFF;
+font-size: 28px;}
+
+h2 a{
+color: #333;
+text-decoration:none;	
+}
+h2 a:hover{
+color: #009900;
+text-decoration:none;	
+}
+
+.roundEdge
+{border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;}
+
+
+#main, #header, #nav
+{
+overflow:auto;
+    text-align: center;
+}
+#nav{background-color:dimgrey;}
+
+#footer
+{
+height:40px;
+border-top:3px solid #333333;
+}
+#footer p
+{
+	padding:20px 0px 20px 0px;
+	font-size:12px;
+}
+
+#content
+{
+    float:left;
+    width:950px;
+
+}
+#content article
+{
+margin-bottom:20px;
+}
+
+#sidebar
+{
+    float:right;
+    width:320px;
+	background-color:#dedede;
+	min-height:400px;
+	text-align:center;
+}
+
+#nav
+{
+overflow:auto;
+}
+#nav ul
+{
+    text-align: center;
+list-style:none;
+height:30px;
+padding:0px;
+margin:0px;
+}
+#nav ul li
+{
+float:left;
+
+font-size:12px;
+font-weight:bold;
+}
+
+
+#nav ul li a
+{
+color:#ffffff;text-decoration:none;display:block;padding:12px;text-align:center;min-width:100px;
+}
+#nav ul li a:hover
+{
+
+	background-color:#339900;
+	color:#FFF;
+}
+
+#logo
+{
+    width: 30px;
+    height: 30px;
+    
+}
+#logomyfiles
+{
+    width: 900px;
+    height: 130px;
+}
+
+#ads
+{
+	text-align:center;
+}
+
+/*form seacrh*/
+form {
+    width:270px;
+    margin:10px auto;
+}
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #53bd84;
+    background-color:#53bd84;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+
